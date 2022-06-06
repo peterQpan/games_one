@@ -1,1 +1,9 @@
-tschüss
+publich View getTextView(View referencce_view) {
+    int a = 3;
+    int b = 12;
+
+    TextView text_view_here = AppCompatt.getTextView(referencce_view);
+    text_view_here.setText(a + "/" + b);
+
+    return text_view_here;
+}
